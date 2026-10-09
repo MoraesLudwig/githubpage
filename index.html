@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gabriela | Análise de Dados</title>
+  <meta name="description"
+    content="Apresentação de Gabriela, estudante de Ciência da Computação com foco em análise de dados.">
+  <style>
+    :root {
+      /* Paleta Mulled Wine */
+      --vinho: #3e0d1e;
+      --vermelho: #9d0d2f;
+      --carmim: #b4204a;
+      --rosa: #e87d87;
+      --salmao: #eca59d;
+
+      --bg: var(--vinho);
+      --card: #ffffff;
+      --texto: #ffffff;
+      --suave: var(--salmao);
+      --destaque: var(--rosa);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--texto);
+      line-height: 1.6;
+      padding: 32px 20px 48px;
+    }
+
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    /* Topo */
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .foto {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #ffffff;
+      margin: 0 auto 20px;
+      display: block;
+      background: var(--card);
+    }
+
+    /* Aparece se a foto não for encontrada */
+    .foto-vazia {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      border: 4px solid #ffffff;
+      margin: 0 auto 20px;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      font-size: 3rem;
+      font-weight: 700;
+      color: var(--vermelho);
+      background: var(--card);
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-family: Georgia, 'Times New Roman', serif;
+      font-weight: 400;
+      letter-spacing: .5px;
+    }
+
+    .cargo {
+      color: var(--destaque);
+      font-weight: 600;
+      margin-top: 4px;
+    }
+
+    .local {
+      color: var(--suave);
+      font-size: 0.95rem;
+    }
+
+    .botoes {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: center;
+      margin-top: 24px;
+    }
+
+    a.botao {
+      padding: 12px 22px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: transform .15s ease, opacity .15s ease;
+    }
+
+    a.botao:hover {
+      transform: translateY(-2px);
+      opacity: .9;
+    }
+
+    .principal {
+      background: var(--destaque);
+      color: var(--bg);
+    }
+
+    .secundario {
+      border: 2px solid var(--destaque);
+      color: var(--destaque);
+    }
+
+    /* Seções */
+    section {
+      background: var(--card);
+      border-radius: 14px;
+      padding: 24px;
+      margin-bottom: 16px;
+      color: var(--vinho);
+    }
+
+    h2 {
+      font-size: 1.1rem;
+      color: var(--vermelho);
+      margin-bottom: 10px;
+      font-family: Georgia, 'Times New Roman', serif;
+      font-weight: 400;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    section p {
+      color: var(--vinho);
+    }
+
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .chip {
+      background: rgba(236, 165, 157, 0.3);
+      border: 1px solid var(--carmim);
+      color: var(--vermelho);
+      padding: 4px 12px;
+      border-radius: 999px;
+      font-size: .9rem;
+    }
+
+    footer {
+      text-align: center;
+      color: var(--suave);
+      font-size: .85rem;
+      margin-top: 32px;
+    }
+
+    @media (min-width: 600px) {
+      h1 {
+        font-size: 2.4rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <header>
+      <!-- Coloque sua foto na mesma pasta com o nome foto.jpg -->
+      <img class="foto" src="c:\Users\gabri\OneDrive\Imagens\unnamed.jpg" alt="Foto de Gabriela"
+        onerror="this.style.display='none'; document.getElementById('iniciais').style.display='flex';">
+      <div class="foto-vazia" id="iniciais">G</div>
+
+      <h1>Gabriela Moraes Ludwig</h1>
+      <p class="cargo">Estudante de Ciência da Computação | Futura Analista de Dados</p>
+      <p class="local">Brasília, DF</p>
+
+      <div class="botoes">
+        <!-- Troque pelos seus links reais -->
+        <a class="botao principal" href="https://analytics-crafted-profile.lovable.app/" target="_blank"
+          rel="noopener">Ver portfólio
+          completo</a>
+        <a class="botao secundario" href="www.linkedin.com/in/gabrielamoraesludwig" target="_blank"
+          rel="noopener">LinkedIn</a>
+      </div>
+    </header>
+
+    <section>
+      <h2>Sobre mim</h2>
+      <p>
+        Sou estudante de Ciência da Computação no CEUB, no 8° e último semestre, e atuo com análise de dados
+        em um estágio na área de tecnologia, trabalhando com extração de dados, métricas e dashboards em Power BI.
+        Gosto de transformar dados em informações claras para apoiar decisões.
+      </p>
+    </section>
+
+    <section>
+      <h2>Objetivo</h2>
+      <p>
+        Seguir carreira como analista de dados, atuando na coleta, tratamento e visualização de dados
+        para gerar valor para o negócio.
+      </p>
+    </section>
+
+    <section>
+      <h2>Formação</h2>
+      <p>Bacharelado em Ciência da Computação, CEUB (Centro Universitário de Brasília), conclusão prevista para
+        2° semestre de 2026.</p>
+    </section>
+
+    <section>
+      <h2>Principais ferramentas</h2>
+      <div class="chips">
+        <span class="chip">Power BI</span>
+        <span class="chip">Python</span>
+        <span class="chip">SQL</span>
+        <span class="chip">Excel</span>
+        <span class="chip">Google Analytics</span>
+        <span class="chip">Método Ágil</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Projetos</h2>
+      <p>Meus projetos, com detalhes e resultados, estão no portfólio.
+        <a href="https://analytics-crafted-profile.lovable.app/" target="_blank" rel="noopener"
+          style="color: var(--vermelho); font-weight: 600;">Acessar portfólio</a>
+      </p>
+    </section>
+
+    <footer>
+      <p>Trabalho da disciplina Bootcamp I, CEUB</p>
+    </footer>
+  </main>
+</body>
+
+</html>
