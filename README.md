@@ -3,8 +3,8 @@
 Página de apresentação do meu portfólio, desenvolvida para a disciplina Bootcamp I (CEUB).
 
 ## Links
-- Página: [https://seu-usuario.github.io/nome-do-repositorio](https://moraesludwig.github.io/githubpage/)
-- Portfólio completo: [https://SEU-PROJETO.lovable.app](https://analytics-crafted-profile.lovable.app/)
+- Página: https://moraesludwig.github.io/githubpage/
+- Portfólio completo: https://analytics-crafted-profile.lovable.app/
 - LinkedIn: www.linkedin.com/in/gabrielamoraesludwig
 
 ## Tecnologias
