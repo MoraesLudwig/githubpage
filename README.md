@@ -97,7 +97,9 @@ Ela reúne uma breve apresentação e direciona para o portfólio completo, onde
 
 ## 📫 Vamos conversar?
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://moraesludwig.github.io/githubpage/www.linkedin.com/in/gabrielamoraesludwig)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gabrielamldev@gmail.com)
+[![Outlook](https://img.shields.io/badge/Outlook-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white)](mailto:gabrielamoraes2022@outlook.pt)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://analytics-crafted-profile.lovable.app/)
 [![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-e87d87?style=for-the-badge&logoColor=white)](https://analytics-crafted-profile.lovable.app/)
 
 <div align="center">
